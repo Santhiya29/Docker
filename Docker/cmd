@@ -1,0 +1,9 @@
+create docker file
+create image
+     docker build -t test-image .
+container
+     docker run -dp 3000:3000 test-image
+     docker stop <the-container-id>
+     docker rm <the-container-id>
+volume
+     docker volume create todo-db
